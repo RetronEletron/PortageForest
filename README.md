@@ -59,7 +59,4 @@ UKUI (Works great although may be a bit slow at some bits)
 5. Run `wget -nc https://raw.githubusercontent.com/RetronEletron/VoidOfPortage/main/gentoo-chroot && chmod 755 gentoo-chroot && sudo ./gentoo-chroot /mnt/gentoo`
 6. Mount your EFI partition to /boot/efi by `mount /dev/sdXY /boot/efi` and if it does not exist run `mkdir /boot/efi`
 7. Edit fstab by running `nano /etc/fstab` and make sure it looks like:
-UUID=<uuid of efi> /boot/efi vfat umask=0077 0 2
-  
-UUID=<uuid of root>    /    <root partition type>    noatime    0 1
-
+![image](https://user-images.githubusercontent.com/84268650/161792271-391b9c5c-6203-4cd7-b406-31c24761d68e.png)
