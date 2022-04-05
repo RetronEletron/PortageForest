@@ -10,7 +10,7 @@ https://discord.gg/test
 - [Notes](#notes)
 - [Installation](#installation)
 - [Building](#building)
-
+- [FAQ](#faq)
 
 
 ## Overview
@@ -55,6 +55,7 @@ UKUI (Works great although may be a bit slow at some bits)
 - Only Support for AMD GPU's by default if you want to change support to nvidia etc go change the VIDEO_CARDS line in /etc/portage/make.conf
 - Zen Kernel only installed.
 - intel-microcode is included to include microcode for people who are on Intel CPU's
+- Using -O2 by default.
 
 ## Installation
 
@@ -78,3 +79,10 @@ To Build your own stage4 first you need:
 If you don't have it follow https://wiki.gentoo.org/wiki/Handbook:X86 (x86) or https://wiki.gentoo.org/wiki/Handbook:AMD64 (x86)
 After your done with that you can mount the root partition to a certain mount point for this example let's do /mnt/gentoo.
 And when your done you can run `mksquashfs /path/to/compress output.sfs -b 131072 -comp xz` And your done! A Very basic stage4.
+
+## FAQ
+1. Why can't you add Deepin support? Well first of all if you would see the official deepin repository it hadn't been updated in nearly 2 years! (As of this writing) and the ebuilds are extremely unstable only some of them actually compile with my best efforts but most don't dde-kwin etc.
+ 
+2. Why can't you add support for other init systems like runit? Well it is not easy to add support for those which aren't officially supported by gentoo by that i mean has a profile etc and even if i could the expierence would be terrible.
+
+3. Why use the zen kernel? Well the zen kernel fits most users and has FSYNC support for gamers and has the anbox modules binder and ashmem which fit for people who like to use anbox or expierement with something that use those modules.
