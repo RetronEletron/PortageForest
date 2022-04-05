@@ -20,29 +20,29 @@ This is a project providing gentoo stage4's as of the definition by the official
 
 Currently, We have tested:
 
-Cinnamon (Works Perfectly)
+- Cinnamon (Works Perfectly)
 
-KDE (Works Perfectly on X11 but Wayland is buggy)
+- KDE (Works Perfectly on X11 but Wayland is buggy)
 
-TDE (Works perfectly from temporary usage)
+- TDE (Works perfectly from temporary usage)
 
-Pantheon (Works fine from the stable branch although testing seems broken)
+- Pantheon (Works fine from the stable branch although testing seems broken)
 
-Deepin (Entirely broken not able to get installed unless heavy modifications to the ebuilds or complete new ones)
+- Deepin (Entirely broken not able to get installed unless heavy modifications to the ebuilds or complete new ones)
 
-LXQT (Works perfectly)
+- LXQT (Works perfectly)
 
-LXDE (Works Perfectly)
+- LXDE (Works Perfectly)
 
-Unity7 (Works perfectly from the stable branch testing was not tested)
+- Unity7 (Works perfectly from the stable branch testing was not tested)
 
-XFCE 4 (Works perfectly)
+- XFCE 4 (Works perfectly)
 
-Budgie From SarahMiaOverlay (Works perfectly but look at her gitlab for packages that may be useful to you)
+- Budgie From SarahMiaOverlay (Works perfectly but look at her gitlab for packages that may be useful to you)
 
-GNOME 41 (Works great on both X11 and Wayland GNOME 42 not tested)
+- GNOME 41 (Works great on both X11 and Wayland GNOME 42 not tested)
 
-UKUI (Works great although may be a bit slow at some bits)
+- UKUI (Works great although may be a bit slow at some bits)
 
 ## Notes
 - Vulkan Support is enabled
