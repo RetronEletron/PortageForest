@@ -57,5 +57,5 @@ UKUI (Works great although may be a bit slow at some bits)
 3. Mount your root partition (Must be at least 15gb in size) to `/mnt/gentoo`
 4. Place the downloaded file to the `/mnt/gentoo` directory (mv file.tar.xz /mnt/gentoo or cp file.tar.xz /mnt/gentoo)
 5. Uncompress the file by doing `tar -xJpf file.tar.xz` 
-6. 
+6. Run `wget -nc https://raw.githubusercontent.com/RetronEletron/VoidOfPortage/main/gentoo-chroot`
 
