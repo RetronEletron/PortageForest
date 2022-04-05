@@ -76,7 +76,7 @@ UKUI (Works great although may be a bit slow at some bits)
 
 To Build your own stage4 first you need:
 - A Gentoo system installed
-If you don't have it follow https://wiki.gentoo.org/wiki/Handbook:X86 (x86) or https://wiki.gentoo.org/wiki/Handbook:AMD64 (x86)
+If you don't have it follow https://wiki.gentoo.org/wiki/Handbook:X86 (x86) or https://wiki.gentoo.org/wiki/Handbook:AMD64 (x64)
 After your done with that you can mount the root partition to a certain mount point for this example let's do /mnt/gentoo.
 And when your done you can run `mksquashfs /path/to/compress output.sfs -b 131072 -comp xz` And your done! A Very basic stage4.
 
