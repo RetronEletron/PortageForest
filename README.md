@@ -49,6 +49,7 @@ UKUI (Works great although may be a bit slow at some bits)
 - There will be only openRC and Systemd support only.
 - Only x86 and x64 support (No Other architecture supported)
 - Base system only installed (For GNOME for example it would be only gnome-light and the base gentoo system and no additional packages)
+- Only dosfstools btrfs-progs and e2fsprogs are installed by default. For More File System support visit https://wiki.gentoo.org/wiki/Filesystem 
 
 ## Installation
 
@@ -58,5 +59,5 @@ UKUI (Works great although may be a bit slow at some bits)
 4. Uncompress the file to `/mnt/gentoo` by doing `sudo tar -xJpf file.tar.xz -C /mnt/gentoo` 
 5. Run `wget -nc https://raw.githubusercontent.com/RetronEletron/VoidOfPortage/main/gentoo-chroot && chmod 755 gentoo-chroot && sudo ./gentoo-chroot /mnt/gentoo`
 6. Mount your EFI partition to /boot/efi by `mount /dev/sdXY /boot/efi` and if it does not exist run `mkdir /boot/efi`
-7. Edit fstab by running `nano /etc/fstab` and make sure it looks like:
-![image](https://user-images.githubusercontent.com/84268650/161792271-391b9c5c-6203-4cd7-b406-31c24761d68e.png)
+7. Edit fstab by running `nano /etc/fstab` and make sure it has the root and EFI partition in it at least.
+8. 
