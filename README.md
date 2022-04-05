@@ -53,8 +53,8 @@ UKUI (Works great although may be a bit slow at some bits)
 ## Installation
 
 1. Download a release from the [Releases](https://github.com/RetronEletron/VoidOfPortage/releases) page (Make Sure the Portable Live Media has 3-4gb of free space for safety).
-2. Create a `/mnt/gentoo` directory if it does not exist. (In a Live Portage Media)
-3. Mount your root partition (Must be at least 15gb in size) to `/mnt/gentoo`
-4. Uncompress the file to `/mnt/gentoo` by doing `tar -xJpf file.tar.xz -C /mnt/gentoo` 
-5. Run `wget -nc https://raw.githubusercontent.com/RetronEletron/VoidOfPortage/main/gentoo-chroot && chmod 755 gentoo-chroot && ./gentoo-chroot /mnt/gentoo`
+2. Create a `/mnt/gentoo` directory if it does not exist by doing `sudo mkdir /mnt/gentoo`. (In a Live Portage Media)
+3. Mount your root partition (Must be at least 15gb in size) to `/mnt/gentoo` by doing `sudo mount /dev/sdXY /mnt/gentoo`
+4. Uncompress the file to `/mnt/gentoo` by doing `sudo tar -xJpf file.tar.xz -C /mnt/gentoo` 
+5. Run `wget -nc https://raw.githubusercontent.com/RetronEletron/VoidOfPortage/main/gentoo-chroot && chmod 755 gentoo-chroot && sudo ./gentoo-chroot /mnt/gentoo`
 
