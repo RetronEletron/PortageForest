@@ -23,11 +23,14 @@ fi
 
 echo "Entering chroot environment in $chrootdir..."
 
-mount --bind /dev "$chrootdir"/dev
-mount --bind /dev/pts "$chrootdir"/dev/pts
-mount -t proc proc "$chrootdir"/proc
-mount -t sysfs sysfs "$chrootdir"/sys
-mount -t tmpfs tmpfs "$chrootdir"/run
+cp --dereference /etc/resolv.conf "$chrootdir"/etc
+mount --types proc /proc "$chrootdir"/proc 
+mount --rbind /sys "$chrootdir"/sys 
+mount --make-rslave "$chrootdir"/sys 
+mount --rbind /dev "$chrootdir"/dev 
+mount --make-rslave "$chrootdir"/dev 
+mount --bind /run "$chrootdir"/run 
+mount --make-slave "$chrootdir"/run 
 
 set +e
 
@@ -39,11 +42,8 @@ set -e
 echo "Exiting chroot environment..."
 
 sync
-umount -R "$chrootdir"/dev/pts
-umount -R "$chrootdir"/dev
-umount -R "$chrootdir"/proc
-umount -R "$chrootdir"/sys
-umount -R "$chrootdir"/run
+umount -l "$chrootdir"/dev{/shm,/pts,}
+umount -R "$chrootdir"
 
 if [ $STATUS -eq 0 ]; then
   echo "Chroot exited successfully."
