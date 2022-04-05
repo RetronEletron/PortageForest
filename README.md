@@ -9,6 +9,8 @@ https://discord.gg/test
 - [Tested Desktop Environments](#Tested-Desktop-Environments)
 - [Notes](#notes)
 - [Installation](#installation)
+- [Building](#building)
+
 
 
 ## Overview
@@ -68,3 +70,11 @@ UKUI (Works great although may be a bit slow at some bits)
 10. Changing your root password. To do this just run `passwd` if your password is too short/unsecure you can edit /etc/security/passwdqc.conf by `nano /etc/security/passwdqc.conf` and change the top line to `min=1,1,1,1,1` than run `passwd` again and it should work.
 11. Adding a user (Not Required but recommended). Adding a user is recommended due to having proper perms and not able to accidently break something. As well as some things may not work properly in root. To do this run `useradd -m -G audio,cdrom,floppy,portage,usb,video,wheel -s /bin/bash user && passwd user` Of course replace user with your actual user unless you want your user to be well user.
 12. If you wish to enable bluetooth support run `systemctl enable bluetooth && systemctl start bluetooth` For Systemd and For OpenRC run `rc-update add bluetooth default && rc-service bluetooth start`
+
+## Building
+
+To Build your own stage4 first you need:
+- A Gentoo system installed
+If you don't have it follow https://wiki.gentoo.org/wiki/Handbook:X86 (x86) or https://wiki.gentoo.org/wiki/Handbook:AMD64 (x86)
+After your done with that you can mount the root partition to a certain mount point for this example let's do /mnt/gentoo.
+And when your done you can run `mksquashfs /path/to/compress output.sfs -b 131072 -comp xz` And your done! A Very basic stage4.
