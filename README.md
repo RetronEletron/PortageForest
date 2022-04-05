@@ -60,5 +60,6 @@ UKUI (Works great although may be a bit slow at some bits)
 6. Mount your EFI partition to /boot/efi by `mount /dev/sdXY /boot/efi` and if it does not exist run `mkdir /boot/efi`
 7. Edit fstab by running `nano /etc/fstab` and make sure it looks like:
 UUID=<uuid of efi> /boot/efi vfat umask=0077 0 2
+  
 UUID=<uuid of root>    /    <root partition type>    noatime    0 1
 
