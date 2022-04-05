@@ -61,4 +61,4 @@ UKUI (Works great although may be a bit slow at some bits)
 5. Run `wget -nc https://raw.githubusercontent.com/RetronEletron/VoidOfPortage/main/gentoo-chroot && chmod 755 gentoo-chroot && sudo ./gentoo-chroot /mnt/gentoo`
 6. Mount your EFI partition to /boot/efi by `mount /dev/sdXY /boot/efi` and if it does not exist run `mkdir /boot/efi`
 7. Edit fstab by running `nano /etc/fstab` and make sure it has the root and EFI partition in it at least.
-8. 
+8. Install and configure grub. By default grub is installed but it needs to be installed and configured on your hardware to do this run `grub-install && grub-mkconfig -o /boot/grub/grub.cfg` if you want any modifications to the grub config file edit /etc/default/grub by doing `nano /etc/default/grub`
