@@ -50,6 +50,7 @@ UKUI (Works great although may be a bit slow at some bits)
 - Only x86 and x64 support (No Other architecture supported)
 - Base system only installed (For GNOME for example it would be only gnome-light and the base gentoo system and no additional packages)
 - Only dosfstools btrfs-progs and e2fsprogs are installed by default. For More File System support visit https://wiki.gentoo.org/wiki/Filesystem 
+- Only Support for AMD GPU's by default if you want to change support to nvidia etc go change the VIDEO_CARDS line in /etc/portage/make.conf
 
 ## Installation
 
