@@ -52,7 +52,7 @@ UKUI (Works great although may be a bit slow at some bits)
 
 ## Installation
 
-1. Download a release from the [Releases](https://github.com/RetronEletron/VoidOfPortage/releases) page.
+1. Download a release from the [Releases](https://github.com/RetronEletron/VoidOfPortage/releases) page (Make Sure the Portable Live Media has 3-4gb of free space).
 2. Create a `/mnt/gentoo` directory if it does not exist. (In a Live Portage Media)
 3. Mount your root partition (Must be at least 15gb in size) to `/mnt/gentoo`
 4. Uncompress the file to `/mnt/gentoo` by doing `tar -xJpf file.tar.xz -C /mnt/gentoo` 
