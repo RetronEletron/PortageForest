@@ -41,7 +41,7 @@ GNOME 41 (Works great on both X11 and Wayland GNOME 42 not tested)
 
 UKUI (Works great although may be a bit slow at some bits)
 
-Installation
+## Installation
 
 1. Download a release from the [Releases](https://github.com/RetronEletron/VoidOfPortage/releases) page.
 
