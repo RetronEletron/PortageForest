@@ -54,5 +54,8 @@ UKUI (Works great although may be a bit slow at some bits)
 
 1. Download a release from the [Releases](https://github.com/RetronEletron/VoidOfPortage/releases) page.
 2. Create a `/mnt/gentoo` directory if it does not exist. (In a Live Portage Media)
-3. 
+3. Mount your root partition (Must be at least 15gb in size) to `/mnt/gentoo`
+4. Place the downloaded file to the `/mnt/gentoo` directory (mv file.tar.xz /mnt/gentoo or cp file.tar.xz /mnt/gentoo)
+5. Uncompress the file by doing `tar -xJpf file.tar.xz` 
+6. 
 
