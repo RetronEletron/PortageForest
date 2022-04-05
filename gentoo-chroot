@@ -1,6 +1,6 @@
 #!/bin/bash
 # Enter a chroot environment for Gentoo.
-
+#NOT MINE CREDITS TO THE SONIC MASTER AND MASSOS https://github.com/MassOS-Linux/MassOS
 set -e
 
 if [ $EUID -ne 0 ]; then
