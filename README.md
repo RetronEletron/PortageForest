@@ -7,6 +7,7 @@ https://discord.gg/test
 ## Table of contents
 - [Overview](#overview)
 - [Tested Desktop Environments](#Tested-Desktop-Environments)
+- [Notes](#notes)
 - [Installation](#installation)
 
 
@@ -41,8 +42,17 @@ GNOME 41 (Works great on both X11 and Wayland GNOME 42 not tested)
 
 UKUI (Works great although may be a bit slow at some bits)
 
+## Notes
+- Vulkan Support is enabled
+- X support is enabled
+- All stage4's will be in the stable branch 
+- There will be only openRC and Systemd support only.
+- Only x86 and x64 support (No Other architecture supported)
+- Base system only installed (For GNOME for example it would be only gnome-light and the base gentoo system and no additional packages)
+
 ## Installation
 
 1. Download a release from the [Releases](https://github.com/RetronEletron/VoidOfPortage/releases) page.
-
+2. Create a `/mnt/gentoo` directory if it does not exist. (In a Live Portage Media)
+3. 
 
