@@ -60,16 +60,27 @@ Currently, We have tested:
 ## Installation
 
 1. Download a release from the [Releases](https://github.com/RetronEletron/VoidOfPortage/releases) page (Make Sure the Portable Live Media has 3-4gb of free space for safety).
+
 2. Create a `/mnt/gentoo` directory if it does not exist by doing `sudo mkdir /mnt/gentoo`. (In a Live Portage Media)
+
 3. Mount your root partition (Must be at least 15gb in size) to `/mnt/gentoo` by doing `sudo mount /dev/sdXY /mnt/gentoo`
+
 4. Uncompress the file to `/mnt/gentoo` by doing `sudo tar -xJpf file.tar.xz -C /mnt/gentoo` 
+
 5. Run `wget -nc https://raw.githubusercontent.com/RetronEletron/VoidOfPortage/main/gentoo-chroot && chmod 755 gentoo-chroot && sudo ./gentoo-chroot /mnt/gentoo`
+
 6. Mount your EFI partition to /boot/efi by `mount /dev/sdXY /boot/efi` and if it does not exist run `mkdir /boot/efi`
+
 7. Edit fstab by running `nano /etc/fstab` and make sure it has the root and EFI partition in it at least.
+
 8. Install and configure grub. By default grub is installed but it needs to be installed and configured on your hardware to do this run `grub-install && grub-mkconfig -o /boot/grub/grub.cfg` if you want any modifications to the grub config file edit /etc/default/grub by doing `nano /etc/default/grub`
+
 9. Editing /etc/portage/make.conf. Not Entire required but may be needed if you got a different gpu or want to add your own configurations or change the use flags to your preference (Note this may require huge amount of packages to be rebuilt) to edit /etc/portage/make.conf run `nano /etc/portage/make.conf`
+
 10. Changing your root password. To do this just run `passwd` if your password is too short/unsecure you can edit /etc/security/passwdqc.conf by `nano /etc/security/passwdqc.conf` and change the top line to `min=1,1,1,1,1` than run `passwd` again and it should work.
+
 11. Adding a user (Not Required but recommended). Adding a user is recommended due to having proper perms and not able to accidently break something. As well as some things may not work properly in root. To do this run `useradd -m -G audio,cdrom,floppy,portage,usb,video,wheel -s /bin/bash user && passwd user` Of course replace user with your actual user unless you want your user to be well user.
+
 12. If you wish to enable bluetooth support run `systemctl enable bluetooth && systemctl start bluetooth` For Systemd and For OpenRC run `rc-update add bluetooth default && rc-service bluetooth start`
 
 ## Building
