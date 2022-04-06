@@ -58,6 +58,7 @@ Currently, We have tested:
 - Using -O2 by default.
 - Hostname will be "gentoo"
 - MAKEOPTS="-j$(nproc)" is enabled to have auto core count detection enabled.
+- Multilib support is enabled
 
 ## Installation
 
