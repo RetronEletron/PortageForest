@@ -93,7 +93,7 @@ After your done with that you can mount the root partition to a certain mount po
 And when your done you can run `mksquashfs /path/to/compress output.sfs -b 131072 -comp xz` And your done! A Very basic stage4.
 
 ## FAQ
-1. Why can't you add Deepin support? Well first of all if you would see the official deepin repository it hadn't been updated in nearly 2 years! (As of this time of writing) and the ebuilds are extremely unstable only some of them actually compile with my best efforts but most don't dde-kwin etc.
+1. Why can't you add Deepin support? Well first of all if you would see the official deepin repository it hadn't been updated in nearly 2 years! (As of this time of writing) and the ebuilds are extremely unstable only some of them actually compile with my best efforts but most don't like dde-kwin etc.
  
 2. Why can't you add support for other init systems like runit? Well it is not easy to add support for those which aren't officially supported by gentoo by that i mean has a profile etc and even if i could the expierence would be terrible.
 
