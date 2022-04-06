@@ -67,6 +67,7 @@ Currently, We have tested:
 - webkit-gtk preinstalled
 - US locale by default
 - Network Manager used by default for networking.
+- xorg-server installed.
 
 ## Installation
 
