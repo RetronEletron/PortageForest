@@ -62,6 +62,7 @@ Currently, We have tested:
 - Accepts all licenses
 - UK mirrors used
 - UEFI support only.
+- eselect-repository used by default for overlay management.
 
 ## Installation
 
