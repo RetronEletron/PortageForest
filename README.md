@@ -61,6 +61,7 @@ Currently, We have tested:
 - Multilib support is enabled
 - Accepts all licenses
 - UK mirrors used
+- UEFI support only.
 
 ## Installation
 
