@@ -57,7 +57,7 @@ Currently, We have tested:
 - intel-microcode is included to include microcode for people who are on Intel CPU's
 - Using -O2 by default.
 - Hostname will be "gentoo"
-- MAKEOPTS="-j$(nproc)" is enabled to have auto core count detection enabled.
+- MAKEOPTS="-j$(nproc)" is enabled to have auto core count detection enabled (You may get "/etc/portage/make.conf", line 12: $: bad substitution it is nothing to worry about)
 - Multilib support is enabled
 - Accepts all licenses
 - UK mirrors used
