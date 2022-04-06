@@ -57,6 +57,7 @@ Currently, We have tested:
 - intel-microcode is included to include microcode for people who are on Intel CPU's
 - Using -O2 by default.
 - Hostname will be "gentoo"
+- MAKEOPTS="-j$(nproc)" is enabled to have auto core count detection enabled.
 
 ## Installation
 
