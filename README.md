@@ -76,7 +76,7 @@ Currently, We have tested:
 
 8. Install and configure grub. By default grub is installed but it needs to be installed and configured on your hardware to do this run `grub-install && grub-mkconfig -o /boot/grub/grub.cfg` if you want any modifications to the grub config file edit /etc/default/grub by doing `nano /etc/default/grub`
 
-9. Editing /etc/portage/make.conf. Not Entire required but may be needed if you got a different gpu or want to add your own configurations or change the use flags to your preference (Note this may require huge amount of packages to be rebuilt) to edit /etc/portage/make.conf run `nano /etc/portage/make.conf`
+9. Editing /etc/portage/make.conf. Not Entirely required but may be needed if you got a different gpu or want to add your own configurations or change the use flags to your preference (Note this may require huge amount of packages to be rebuilt) to edit /etc/portage/make.conf run `nano /etc/portage/make.conf`
 
 10. Changing your root password. To do this just run `passwd` if your password is too short/unsecure you can edit /etc/security/passwdqc.conf by `nano /etc/security/passwdqc.conf` and change the top line to `min=1,1,1,1,1` than run `passwd` again and it should work.
 
