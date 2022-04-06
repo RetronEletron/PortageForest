@@ -59,6 +59,8 @@ Currently, We have tested:
 - Hostname will be "gentoo"
 - MAKEOPTS="-j$(nproc)" is enabled to have auto core count detection enabled.
 - Multilib support is enabled
+- Accepts all licenses
+- UK mirrors used
 
 ## Installation
 
