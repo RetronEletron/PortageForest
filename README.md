@@ -63,6 +63,7 @@ Currently, We have tested:
 - UK mirrors used
 - UEFI support only.
 - eselect-repository used by default for overlay management.
+- UTC time
 
 ## Installation
 
