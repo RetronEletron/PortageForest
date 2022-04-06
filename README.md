@@ -66,6 +66,7 @@ Currently, We have tested:
 - UTC time
 - webkit-gtk preinstalled
 - US locale by default
+- Network Manager used by default for networking.
 
 ## Installation
 
