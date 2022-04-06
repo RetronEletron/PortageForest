@@ -56,6 +56,7 @@ Currently, We have tested:
 - Zen Kernel only installed.
 - intel-microcode is included to include microcode for people who are on Intel CPU's
 - Using -O2 by default.
+- Hostname will be "gentoo"
 
 ## Installation
 
