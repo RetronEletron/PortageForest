@@ -61,7 +61,7 @@ Currently, We have tested:
 - Multilib support is enabled
 - Accepts all licenses
 - UK mirrors used
-- UEFI support only.
+- UEFI built for if you want legacy support you will need to do your own tweaking.
 - eselect-repository used by default for overlay management.
 - UTC time
 - webkit-gtk preinstalled
