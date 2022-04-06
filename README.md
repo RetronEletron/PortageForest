@@ -64,7 +64,8 @@ Currently, We have tested:
 - UEFI support only.
 - eselect-repository used by default for overlay management.
 - UTC time
-- webkit-gtk preinstalled.
+- webkit-gtk preinstalled
+- US locale by default
 
 ## Installation
 
