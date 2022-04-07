@@ -26,7 +26,7 @@ Currently, We have tested:
 
 - TDE (Works perfectly from temporary usage)
 
-- Pantheon (Works fine from the stable branch although testing seems broken)
+- Pantheon (Unusable on stable and extremely broken on testing)
 
 - Deepin (Entirely broken not able to get installed unless heavy modifications to the ebuilds or complete new ones)
 
