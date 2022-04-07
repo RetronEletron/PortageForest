@@ -79,7 +79,7 @@ Currently, We have tested:
 
 4. Uncompress the file to `/mnt/gentoo` by doing `sudo tar -xJpf file.tar.xz -C /mnt/gentoo` 
 
-5. Run `wget -nc https://raw.githubusercontent.com/RetronEletron/VoidOfPortage/main/gentoo-chroot && chmod 755 gentoo-chroot && sudo ./gentoo-chroot /mnt/gentoo`
+5. Run `wget -nc https://raw.githubusercontent.com/RetronEletron/PortageForest/main/gentoo-chroot && chmod 755 gentoo-chroot && sudo ./gentoo-chroot /mnt/gentoo`
 
 6. Mount your EFI partition to /boot/efi by `mount /dev/sdXY /boot/efi` and if it does not exist run `mkdir /boot/efi`
 
