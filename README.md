@@ -44,6 +44,8 @@ Currently, We have tested:
 
 - UKUI (Works great although may be a bit slow at some bits)
 
+- Cutefish (Works perfectly with a exception of some bugs related to upstream cutefish)
+
 ## Notes
 - Vulkan Support is enabled
 - X support is enabled
