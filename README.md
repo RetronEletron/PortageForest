@@ -101,7 +101,7 @@ To Build your own stage4 first you need:
 - A Gentoo system installed
 If you don't have it follow https://wiki.gentoo.org/wiki/Handbook:X86 (x86) or https://wiki.gentoo.org/wiki/Handbook:AMD64 (x64)
 After your done with that you can mount the root partition to a certain mount point for this example let's do /mnt/gentoo.
-And when your done you can run `mksquashfs /path/to/compress output.sfs -b 131072 -comp xz` And your done! A Very basic stage4.
+And when your done you can run `tar -cJpvf /path/to/output/tarball.tar.xz *` And your done! A Very basic stage4.
 
 ## FAQ
 1. Why can't you add Deepin support? Well first of all if you would see the official deepin repository it hadn't been updated in nearly 2 years! (As of this time of writing) and the ebuilds are extremely unstable only some of them actually compile with my best efforts but most don't like dde-kwin etc.
