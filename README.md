@@ -36,11 +36,11 @@ Currently, We have tested:
 
 - Unity7 (Works perfectly from the stable branch testing was not tested)
 
-- XFCE 4 (Works perfectly)
+- XFCE (Works perfectly)
 
 - Budgie From SarahMiaOverlay (Works perfectly but look at her gitlab for packages that may be useful to you)
 
-- GNOME 41 (Works great on both X11 and Wayland GNOME 42 not tested)
+- GNOME (Works great on both X11 and Wayland GNOME 42 not tested)
 
 - UKUI (Works great although may be a bit slow at some bits)
 
