@@ -38,7 +38,7 @@ Currently, We have tested:
 
 - XFCE (Works perfectly)
 
-- Budgie From SarahMiaOverlay (Works perfectly but look at her gitlab for packages that may be useful to you)
+- Budgie From SarahMiaOverlay (Works perfectly but look at her gitlab for packages that may be useful to you. Update Seems like as of the current TARVER stage4's the lock screen says incorrect password or Not permitted access at this time)
 
 - GNOME (Works great on both X11 and Wayland GNOME 42 not tested)
 
